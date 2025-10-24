@@ -14,7 +14,7 @@ def summarize_text(text):
     ])
     return response['message']['content']
 
-# --- 1. Fetch Ad Data from Google Ads Transparency Center ---
+# --- 1. Fetch Transcript Data from Youtube ---
 def get_transcript_from_youtube(v):
     # Implement your YouTube transcript fetching logic here
     params = {
