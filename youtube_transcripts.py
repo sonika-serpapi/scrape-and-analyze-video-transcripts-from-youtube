@@ -9,7 +9,7 @@ def summarize_text(text):
     response: ChatResponse = chat(model='llama3', messages=[
     {
         'role': 'user',
-        'content': f"From the following text, what did they conclude was the most popular coffee drink?:\n\n{text}\n\nMost popular drink:",
+        'content': f"Summarize the following text:\n\n{text}\n\nSummary:",
     },
     ])
     return response['message']['content']
