@@ -31,6 +31,7 @@ Head to the project folder and run the code file using `python youtube_transcrip
 **Sample Output**
 
 Input:
+
 Youtube Video ID used: epMDcqKoQys
 
 Output:
